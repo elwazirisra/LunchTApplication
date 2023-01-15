@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  
+  
+    @IBAction func Start(_ sender: Any) {
+        self.performSegue(withIdentifier: "AboutUsSegue", sender: self)
+    }
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+     
+        
     }
 
-
+    
+    
 }
+
 
